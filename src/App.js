@@ -1,5 +1,7 @@
 
-import { useState } from 'react';
+import { Grid } from '@material-ui/core';
+import { Container } from '@mui/material';
+import { Fragment, useState } from 'react';
 import './App.css';
 import Categories from './Categories';
 import restaurant from './food';
@@ -22,7 +24,9 @@ function App() {
   }
  
   return (
-    <main>
+    <Fragment>
+
+    
     <section className='restaurant section'>
       <div className='title'>
         <h2>
@@ -30,10 +34,15 @@ function App() {
         </h2>
         <div className='underline'></div>
       </div>
-      <Categories categories={categories} category={category}/>
+     <Grid container spacing={1} justify="center" >
+      <Categories  categories={categories} category={category}/> 
+      </Grid>
+      <Grid container spacing={1} justify="center" >
       <Menu items={data}/>
+      </Grid>
     </section>
-    </main>
+   
+    </Fragment>
   );
 }
 

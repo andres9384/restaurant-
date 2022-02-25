@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import {Button } from '@mui/material';
+import { Grid } from '@material-ui/core';
+
+
+
 
 const Categories = ({category,categories}) => {
-  return <div className='btn-container'>
-      {category.map((category,index)=>{
+  
+  return <Fragment>
+    
+    
+        {category.map((category,index)=>{
           return(
-            <button className='filter-btn' key={index} onClick={()=>categories(category)}>
-          {category}</button>    
+          //   <button className='filter-btn' key={index} onClick={()=>categories(category)}>
+          // {category}</button> 
+           <Button key={index} sx={{margin:'5px'}}  onClick={()=>categories(category)} variant="contained">{category} </Button>   
           )
       })}
           
-           
-  </div>;
+         
+  </Fragment>;
 };
 
 export default Categories;

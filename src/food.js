@@ -6,7 +6,7 @@ const restaurant = [
     img: "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/07/lasana-para-vender.jpg",
     category: "italian",
     description:
-      "La lasaña es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne en salsa boloñesa y bechamel. Su origen es italiano y el plato preparado usualmente con carne suele llamarse lasaña al horno",
+      "La lasaña es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne en salsa boloñesa y bechamel. ",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const restaurant = [
     img: "https://www.lavanguardia.com/files/article_main_microformat/files/fp/uploads/2020/09/09/5f58b1bb6d322.r_d.627-418-0.jpeg",
     category: "French",
     description:
-      "La pasta es un conjunto de alimentos preparados con una masa cuyo ingrediente básico es la sémola, mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes, conformando un producto que generalmente se cuece en agua hirviendo.",
+      "La pasta es un conjunto de alimentos preparados con una masa cuyo ingrediente básico es la sémola, mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes.",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const restaurant = [
     img: "https://cdn.colombia.com/gastronomia/2011/08/25/pizza-margarita-3684.webp",
     category: "italian",
     description:
-      "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal que tradicionalmente se cubre con salsa de tomate y mozzarella y se hornea a alta temperatura en un horno de leña",
+      "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular.",
   },
   {
     id: 6,
